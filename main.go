@@ -43,7 +43,7 @@ func main() {
   session, err := geddit.NewLoginSession(
     bot.Username,
     bot.Password,
-    "Link Saver written in Go by u/Alexius-CA",
+    "Saved Links Bot (golang) by u/Alexius-CA @ github.com:AlexSafatli/go-reddit-links-bot",
   )
   if err != nil {
     log.Fatal(err)
